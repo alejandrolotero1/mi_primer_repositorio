@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: #1293d4;
+}
+/*--------------------------nav------------------------*/
+
+.nav_inicio_index h1 span{
+    color: #1293d4;
+    margin-left: 10px;
+}
+
+.nav_inicio_index{
+    background-color:#24282b;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    border-bottom: 5px solid #1293d4;
+
+}
+.nav_inicio_index h1{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 32px;
+}
+
+.nav_inicio_index h1 span{
+    color: #1293d4;
+}
+
+.nav_inicio_index ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    margin-right: 200px;
+}
+
+.nav_inicio_index ul li{
+    padding: 10px;
+    margin: 20px;
+    color: #fff;
+}
+.nav_inicio_index ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/*------------------------------------/nav/--------------------------------------*/
+/*------------------------------encabezado inicio--------------------------------*/
+
+.encabezado_inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-image: url(images/cabecera.jpg);
+    background-position: 50%;
+    width: 100%;
+    height: 30rem;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encabezado_inicio h1{
+    padding: 100px;
+    padding-top: 50px;
+    font-size: 75px;
+}
+
+.encabezado_inicio h3{
+    width: 1000px;
+    text-align: center;
+}
+/*------------------------------/encabezado inicio/--------------------------------*/
+/*-----------------------------------nav_V2----------------------------------------*/
+
+.nav_inicio_index_v2{
+    background-color:#24282b;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.nav_inicio_index_v2 h2{
+    font-size: 25px;
+    color: #fff;
+    margin-left:  -150px;
+}
+
+.nav_inicio_index_v2 input[type="email"]{
+    height: 30px;
+    width: 200px;
+}
+
+.nav_inicio_index_v2 button{
+    height: 45px;
+    background-color: #e8491d ;
+    color: #fff;
+    border-style: none;
+}
+/*--------------------------------/nav_V2/------------------------------------------*/
+/*--------------------------------iconos_index--------------------------------------*/
+.iconos_index{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconos_index div{
+    text-align: center;
+    width: 17%; 
+}
+
+    .iconos_index h4{
+        font-size: 23px;
+        padding: 15px;
+    }
+
+
+
+.iconos_index div img{
+    width: 50%;
+    margin-top: 100px;
+    text-align: center;
+
+}
+/*--------------------------------/iconos_index/------------------------------------*/
+/*------------------------------------footer----------------------------------------*/
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1293d4;
+    height: 75px;
+    margin-top: 75px;
+    align-items: center;
+    color: #fff;
+}
+
+/*-----------------------------------/footer/---------------------------------------*/
+/*-----------------------------------NOSOTROS---------------------------------------*/
+/*---------------------------------texto1_nosotros----------------------------------*/
+
+.texto1_nosotros{
+    width: 55%;
+}
+
+.texto1_nosotros img{
+    width: 100%;
+    height: 33%;
+}
+
+.texto1_nosotros h4{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.texto1_nosotros p{
+    padding: 10px;
+}
+
+.hijos_nosotros{
+    padding: 10px;
+    background-color: #35424a;
+    color: #fff
+}
+
+.hijos_nosotros_v2{
+    color: black;
+}
+
+.que_hacemos_nosotros{
+    color: #fff;
+    background-color: #35424a;
+    margin-top: 20px;
+    width: 22%;
+    height: 44%;
+
+}
+
+.section_nosotros{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+.que_hacemos_nosotros p{
+    padding: 10px;
+}
+
+.que_hacemos_nosotros h1{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+/*----------------------------servicios-------------------------------*/
+.section_servicios{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_div{
+    width: 55%;
+}
+.section_servicios h4{
+    font-size: 23px;
+}
+.section_servicios div div{
+    background-color: #e6e6e6;
+    padding: 45px;
+    margin-top: 30px;
+}
+.section_servicios{
+    margin-top: 75px;
+
+}
+/*-----------------------------------conctatos-----------------------------------------*/
+.section_contacto{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+.cuestionario button{
+    height: 45px;
+    background-color: #e8491d ;
+    color: #fff;
+    border-style: none;
+    margin-top: 10px;
+}
+.cuestionario{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.cuestionario label{
+    padding-top: 10px;
+}
+.cuestionario input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aux_contacto{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+.que_hacemos_contacto{
+    color: #fff;
+    background-color: #35424a;
+    margin-top: 20px;
+    height: 44%;
+    margin-bottom: 20px;
+}
+.que_hacemos_contacto{
+    padding: 20px;
+}
+.que_hacemos_contacto h1{
+    padding: 10px;
+}
+
+@media screen and (max-width: 1400px){
+    .nav_inicio_index ul{
+       margin-right: 80px;
+    }
+}
+@media screen and (max-width: 1200px){
+.nav_inicio_index ul{
+    margin-right: 75px;
+}
+.nav_inicio_index ul li{
+    margin: 10px;
+}
+.encabezado_inicio h1{
+    font-size: 60px;
+}
+.encabezado_inicio h3{
+    font-size: 20px;
+}
+/*--------------------------------------------------------*/
+
+}
+@media screen and (max-width: 1100px){
+    .nav_inicio_index_v2 h2{
+        font-size: 23px;
+        margin-left: -90px;
+    }
+}
+@media screen and (max-width: 1000px){
+
+    .encabezado_inicio h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .nav_inicio_index ul{
+        display: flex;
+        padding: 20px;
+        list-style: none;
+        margin-right: 50px;
+    }
+
+    .nav_inicio_index ul li{
+        font-size: 15px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .nav_inicio_index h1{
+        font-size: 25px;
+    }
+
+    .encabezado_inicio h3{
+        font-size: 17px;
+        width: 70%;
+    }
+
+    .nav_inicio_index_v2 h2{
+        font-size: 20px;
+        margin-left: -30px;
+    }
+
+    .iconos_index h4{
+        font-size: 19px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 800px){
+
+            /*-------------------que hacemos nosotros----------------*/
+            .que_hacemos_nosotros{
+                width: 70%;
+            }
+            .texto1_nosotros{
+                width: 70%;
+            }
+    
+            .texto1_nosotros img{
+                height: 200px;
+            }
+    
+    
+            .section_nosotros{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+        /*----------------/que hacemos nosotros/---------------*/
+        /*----------------que hacemos servicios----------------*/
+            .section_servicios{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .section_div{
+                width: 70%;
+            }
+        /*----------------/que hacemos servicios/----------------*/
+        /*------------------que hacemos contacto-----------------*/
+        .section_contacto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cuestionario{
+            width: 80%;
+        }
+        .aux_contacto{
+            width: 80%;
+        }
+    
+        /*-----------------/que hacemos contacto/----------------*/
+
+    .nav_inicio_index ul{
+        margin-right: 20px;
+    }
+
+    .nav_inicio_index h1{
+        margin-left: 40px;
+    }
+    .iconos_index div img{
+        width: 70%;
+    }
+    .encabezado_inicio h1{
+        padding: 50px;
+        font-size: 35px;
+    }
+
+    .encabezado_inicio h3{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 700px){
+    .nav_inicio_index h1{
+        font-size: 20px;
+    }
+    .nav_inicio_index ul li{
+        font-size: 13px;
+    }
+    .nav_inicio_index_v2 h2{
+        font-size: 18px;
+        margin-left: -20px;
+    }
+
+}
+@media screen and (max-width: 600px){
+
+
+    .nav_inicio_index h1{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .nav_inicio_index{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .nav_inicio_index ul{
+            font-size: 13px;
+            margin-right: 0;
+            /*display: grid;*/
+            /*grid-template-columns: 1fr 1fr ;*/
+            display: flex;
+            justify-content: center;
+            }
+    .nav_inicio_index_v2 h2{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .nav_inicio_index_v2 input[type="email"]{
+        height: 20px;
+        width: 160px;
+    }
+    .nav_inicio_index_v2 button{
+        height: 35px;
+    }
+    .iconos_index h4{
+        font-size: 16px;
+    }
+    .iconos_index div p{
+        font-size: 14px;
+    }
+}
